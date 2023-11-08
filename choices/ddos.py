@@ -28,9 +28,9 @@ print(Fore.RED + """
 web = input("[ ? ] Enter URl | ")
 
 while True:
-    if not fchoice.__contains__("."):
+    if not web.__contains__("."):
         print("[ ! ] Not a valid domain.")
-        fchoice = input("[ ? ] Enter URl | ")
+        web = input("[ ? ] Enter URl | ")
     else:
         break
 

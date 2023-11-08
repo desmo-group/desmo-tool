@@ -25,7 +25,7 @@ print(Fore.RED + """
 
 """)
 
-fchoice = input("[ ? ] Enter URl | ")
+web = input("[ ? ] Enter URl | ")
 
 while True:
     if not fchoice.__contains__("."):
